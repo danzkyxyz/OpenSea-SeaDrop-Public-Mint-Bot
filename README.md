@@ -34,8 +34,8 @@ Includes a bonus disperse script for fanning out gas to multiple wallets in a si
 ## Setup
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/danzkyxyz/OpenSea-SeaDrop-Public-Mint-Bot.git
+cd OpenSea-SeaDrop-Public-Mint-Bot
 npm install
 cp .env.example .env
 ```
