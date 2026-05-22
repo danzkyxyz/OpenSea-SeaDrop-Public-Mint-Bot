@@ -1,0 +1,17 @@
+{
+  "name": "opensea-seadrop-mint",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Auto mint OpenSea SeaDrop (FCFS & Public) with simulation + Flashbots Protect",
+  "main": "mint.js",
+  "scripts": {
+    "simulate": "node mint.js --simulate",
+    "mint": "node mint.js",
+    "schedule": "node mint.js --schedule"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4"
+  }
+}
